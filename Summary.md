@@ -26,3 +26,7 @@ So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain
 - 1.1 Feature Scaling
     - **D24**: Standardization
     - **D25**: Normalization
+
+- 1.2 Handling Categorical Features(How to encode categorical data)
+    - **D26**: Ordinal Encoding & Label Encoding
+    - **D27**: One Hot Encoding
