@@ -1,19 +1,19 @@
 ## This File contains a Summary of learning of Classical ML
 
-- **D11**: Has all info about tensor
-- **D13**: Shows how an end to end ML pipeline looks like
-- **D15 to D18**: Different ways to collect data for training
+- **<span style="color:orange">D11 </span>**: Has all info about tensor
+- **<span style="color:orange">D13</span>**: Shows how an end to end ML pipeline looks like
+- **<span style="color:orange">D15 to D18</span>**: Different ways to collect data for training
     - From csv
     - JSON
     - API
     - Web Scraping 
-- **D19 to D22**: How to analyse the collected data(EDA)
+- **<span style="color:orange">D19 to D22</span>**: How to analyse the collected data(EDA)
     - Bi-variate analysis
     - Multi-variate analysis
     - Pandas profiling
 
 So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain.
-- **D23**: Feature Engineering Intro
+- **<span style="color:orange">D23</span>**: Feature Engineering Intro
     1. Feature Transformation
         - Feature Scaling
         - Handling Categorical Features
@@ -24,9 +24,12 @@ So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain
     4. Feature Extraction
 
 - 1.1 Feature Scaling
-    - **D24**: Standardization
-    - **D25**: Normalization
+    - **<span style="color:orange">D24</span>**: Standardization
+    - **<span style="color:orange">D25</span>**: Normalization
 
 - 1.2 Handling Categorical Features(How to encode categorical data)
-    - **D26**: Ordinal Encoding & Label Encoding
-    - **D27**: One Hot Encoding
+    - **<span style="color:orange">D26</span>**: Ordinal Encoding & Label Encoding
+    - **<span style="color:orange">D27</span>**: One Hot Encoding
+- **D28**: Column Transformer to make the transformation process more efficient and easy to manage
+
+- **<span style="color:orange">D29</span>**: Sklearn Pipelines
