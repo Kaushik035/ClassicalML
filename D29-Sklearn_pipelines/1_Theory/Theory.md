@@ -9,3 +9,7 @@
 - This module is divided into 2 parts:
     - we will do a small project without pipelines
     - then we will do the same project with pipelines and see the difference
+
+- First go to the 2_WithoutPipeline folder and open the titanic-without-using-pipeline.ipynb file and run all the cells to see how we can do the same project without using pipelines. 
+
+- After that go to the 3_WithPipeline folder and open the titanic-with-pipeline.ipynb file and run all the cells to see how we can do the same project using pipelines.
