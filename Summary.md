@@ -33,3 +33,10 @@ So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain
 - **D28**: Column Transformer to make the transformation process more efficient and easy to manage
 
 - **<span style="color:orange">D29</span>**: Sklearn Pipelines
+
+- **Mathematical Transformation of features**
+    - Log Transformation
+    - Reciprocal Transformation
+    - Power Transformation
+    - Box-Cox Transformation
+    - Yeo-Johnson Transformation
