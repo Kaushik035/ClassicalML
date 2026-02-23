@@ -35,8 +35,15 @@ So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain
 - **<span style="color:orange">D29</span>**: Sklearn Pipelines
 
 - **Mathematical Transformation of features**
-    - Log Transformation
-    - Reciprocal Transformation
-    - Power Transformation
-    - Box-Cox Transformation
-    - Yeo-Johnson Transformation
+    - **<span style="color:orange">D30</span>**: Function Transformer
+        - Log Transformation
+        - Reciprocal Transformation
+        - Power Transformation
+    - **<span style="color:orange">D31</span>**: Power Transformer
+        - Box-Cox Transformation
+        - Yeo-Johnson Transformation
+
+## <span style="color:green">TIP</span>
+- When you are working with an model - that rely on normally diributed data
+- then check if the columns are normally distributed or not, if not then apply power transformation to make it normally distributed
+- you can also apply function transformation to make the data normally distributed, but power transformation in general gives better results than function transformation. So, try both and see which one gives better results.
