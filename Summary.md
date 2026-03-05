@@ -44,6 +44,13 @@ So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain
         - Yeo-Johnson Transformation
 
 ## <span style="color:green">TIP</span>
+
 - When you are working with an model - that rely on normally diributed data
 - then check if the columns are normally distributed or not, if not then apply power transformation to make it normally distributed
 - you can also apply function transformation to make the data normally distributed, but power transformation in general gives better results than function transformation. So, try both and see which one gives better results.
+
+---
+
+**<span style="color:orange">D32</span>**: Binning and Binarization (Encoding of numerical features)
+
+
