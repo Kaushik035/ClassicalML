@@ -53,4 +53,15 @@ So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain
 
 **<span style="color:orange">D32</span>**: Binning and Binarization (Encoding of numerical features)
 
+---
+**<span style="color:orange">D33</span>**: Handling mixed variables (numerical and categorical features in the same column)
+**<span style="color:orange">D34</span>**: Handling date and time features
+
+---
+
+- 1.3 Handling Missing Values
+    - **<span style="color:orange">D35</span>**: Simple Imputer
+    - **<span style="color:orange">D36</span>**: KNN Imputer
+    - **<span style="color:orange">D37</span>**: Iterative Imputer
+
 
