@@ -75,3 +75,9 @@ So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain
         - **<span style="color:orange">D40</span>**: Iterative Imputation
 
 
+- 1.4 Outlier Detection and Handling
+    - **<span style="color:orange">D41</span>**: Outlier Theory
+    - **<span style="color:orange">D42</span>**: Outlier dettection and removal using z-score
+    - **<span style="color:orange">D43</span>**: Outlier detection and removal using IQR score
+    - **<span style="color:orange">D44</span>**: Outlier detection and removal using Percentile capping
+
