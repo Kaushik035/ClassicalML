@@ -65,11 +65,13 @@ So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain
         - **<span style="color:orange">D35</span>**: Complete Case Analysis (Dropping missing values)
         - **<span style="color:orange">D36</span>**: Imputing Numerical Data
         - **<span style="color:orange">D37</span>**: Handling Missing Categorical Data
-        - **<span style="color:orange">D38</span>**: 
+        - **<span style="color:orange">D38</span>**: Imputation for both numerical and categorical data
             - Random Sample Imputation (used for both numerical and categorical data)
             - Missing Indicator
-            - Automatic Imputation with sklearn
+            - Automatic Imputation selection using **GridSearchCV**
             
     - 1.3.2 Multivariate Analysis of Missing Values
+        - **<span style="color:orange">D39</span>**: KNN Imputation
+        - **<span style="color:orange">D40</span>**: Iterative Imputation
 
 
