@@ -60,8 +60,16 @@ So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain
 ---
 
 - 1.3 Handling Missing Values
-    - **<span style="color:orange">D35</span>**: Simple Imputer
-    - **<span style="color:orange">D36</span>**: KNN Imputer
-    - **<span style="color:orange">D37</span>**: Iterative Imputer
+
+    - 1.3.1 Univariate Analysis of Missing Values
+        - **<span style="color:orange">D35</span>**: Complete Case Analysis (Dropping missing values)
+        - **<span style="color:orange">D36</span>**: Imputing Numerical Data
+        - **<span style="color:orange">D37</span>**: Handling Missing Categorical Data
+        - **<span style="color:orange">D38</span>**: 
+            - Random Sample Imputation (used for both numerical and categorical data)
+            - Missing Indicator
+            - Automatic Imputation with sklearn
+            
+    - 1.3.2 Multivariate Analysis of Missing Values
 
 
