@@ -1,83 +1,108 @@
-## This File contains a Summary of learning of Classical ML
+## Classical ML Learning Summary
 
-- **<span style="color:orange">D11 </span>**: Has all info about tensor
-- **<span style="color:orange">D13</span>**: Shows how an end to end ML pipeline looks like
-- **<span style="color:orange">D15 to D18</span>**: Different ways to collect data for training
-    - From csv
-    - JSON
-    - API
-    - Web Scraping 
-- **<span style="color:orange">D19 to D22</span>**: How to analyse the collected data(EDA)
-    - Bi-variate analysis
-    - Multi-variate analysis
-    - Pandas profiling
+This file gives a complete flow of learning in this Classical ML journey, from data collection to Feature Engineering.
 
-So avhi tk hum data ko apne paas laake basic level ka EDA karna seekh chuke hain.
-- **<span style="color:orange">D23</span>**: Feature Engineering Intro
-    1. Feature Transformation
-        - Feature Scaling
-        - Handling Categorical Features
-        - Handling Missing Values
-        - Outlier Detection and Handling
-    2. Feature Construction
-    3. Feature Selection
-    4. Feature Extraction
+## 1. Foundation and Data Understanding
 
-- 1.1 Feature Scaling
-    - **<span style="color:orange">D24</span>**: Standardization
-    - **<span style="color:orange">D25</span>**: Normalization
+- **<span style="color:orange">D11</span>**: Tensor basics and core tensor concepts.
+- **<span style="color:orange">D13</span>**: End-to-end ML pipeline overview.
+- **<span style="color:orange">D15 to D18</span>**: Data collection methods for training.
+  - CSV
+  - JSON
+  - API
+  - Web Scraping
+- **<span style="color:orange">D19 to D22</span>**: Exploratory Data Analysis (EDA).
+  - Bivariate analysis
+  - Multivariate analysis
+  - Pandas profiling
 
-- 1.2 Handling Categorical Features(How to encode categorical data)
-    - **<span style="color:orange">D26</span>**: Ordinal Encoding & Label Encoding
-    - **<span style="color:orange">D27</span>**: One Hot Encoding
-- **D28**: Column Transformer to make the transformation process more efficient and easy to manage
+At this stage, we learned how to collect data and perform basic EDA before moving to Feature Engineering.
+
+## 2. Feature Engineering Overview
+
+- **<span style="color:orange">D23</span>**: Introduction to Feature Engineering.
+  1. Feature Transformation
+  2. Feature Construction
+  3. Feature Selection
+  4. Feature Extraction
+
+This summary currently covers the **Feature Transformation** part in detail.
+
+## 3. Feature Transformation (Detailed Flow)
+
+### 3.1 Feature Scaling
+
+- **<span style="color:orange">D24</span>**: Standardization
+- **<span style="color:orange">D25</span>**: Normalization
+
+### 3.2 Handling Categorical Features
+
+- **<span style="color:orange">D26</span>**: Ordinal Encoding and Label Encoding
+- **<span style="color:orange">D27</span>**: One Hot Encoding
+- **<span style="color:orange">D28</span>**: Column Transformer to make transformations efficient and easier to manage
+
+### 3.3 Building Reusable Transformation Workflows
 
 - **<span style="color:orange">D29</span>**: Sklearn Pipelines
 
-- **Mathematical Transformation of features**
-    - **<span style="color:orange">D30</span>**: Function Transformer
-        - Log Transformation
-        - Reciprocal Transformation
-        - Power Transformation
-    - **<span style="color:orange">D31</span>**: Power Transformer
-        - Box-Cox Transformation
-        - Yeo-Johnson Transformation
+### 3.4 Mathematical Transformation of Features
 
-## <span style="color:green">TIP</span>
+- **<span style="color:orange">D30</span>**: Function Transformer
+  - Log Transformation
+  - Reciprocal Transformation
+  - Power Transformation
+- **<span style="color:orange">D31</span>**: Power Transformer
+  - Box-Cox Transformation
+  - Yeo-Johnson Transformation
 
-- When you are working with an model - that rely on normally diributed data
-- then check if the columns are normally distributed or not, if not then apply power transformation to make it normally distributed
-- you can also apply function transformation to make the data normally distributed, but power transformation in general gives better results than function transformation. So, try both and see which one gives better results.
+## <span style="color:green">Tip</span>
+
+- If you are working with a model that relies on normally distributed data, first check whether columns are normally distributed.
+- If they are not, apply transformation techniques to make them closer to normal distribution.
+- You can try Function Transformation, but in many cases Power Transformation gives better results.
+- Best practice: try both and compare model performance.
+
+### 3.5 Encoding Numerical Features
+
+- **<span style="color:orange">D32</span>**: Binning and Binarization
+
+### 3.6 Handling Mixed Variables and Time Features
+
+- **<span style="color:orange">D33</span>**: Handling mixed variables (numerical and categorical data in the same column)
+- **<span style="color:orange">D34</span>**: Handling date and time features
+
+### 3.7 Handling Missing Values
+
+#### 3.7.1 Univariate Missing Value Methods
+
+- **<span style="color:orange">D35</span>**: Complete Case Analysis (dropping missing values)
+- **<span style="color:orange">D36</span>**: Imputing numerical data
+- **<span style="color:orange">D37</span>**: Handling missing categorical data
+- **<span style="color:orange">D38</span>**: Imputation for both numerical and categorical data
+  - Random Sample Imputation (works for both numerical and categorical features)
+  - Missing Indicator
+  - Automatic imputation selection using **GridSearchCV**
+
+#### 3.7.2 Multivariate Missing Value Methods
+
+- **<span style="color:orange">D39</span>**: KNN Imputation
+- **<span style="color:orange">D40</span>**: Iterative Imputation
+
+### 3.8 Outlier Detection and Handling
+
+- **<span style="color:orange">D41</span>**: Outlier Theory
+- **<span style="color:orange">D42</span>**: Outlier detection and removal using Z-score
+- **<span style="color:orange">D43</span>**: Outlier detection and removal using IQR
+- **<span style="color:orange">D44</span>**: Outlier detection and removal using Percentile Capping
 
 ---
 
-**<span style="color:orange">D32</span>**: Binning and Binarization (Encoding of numerical features)
+## 4. Current Status and Next Step
 
----
-**<span style="color:orange">D33</span>**: Handling mixed variables (numerical and categorical features in the same column)
-**<span style="color:orange">D34</span>**: Handling date and time features
+With Outlier Detection completed, the **Feature Transformation** part is now complete.
 
----
+Next, we will move to the remaining parts of Feature Engineering:
 
-- 1.3 Handling Missing Values
-
-    - 1.3.1 Univariate Analysis of Missing Values
-        - **<span style="color:orange">D35</span>**: Complete Case Analysis (Dropping missing values)
-        - **<span style="color:orange">D36</span>**: Imputing Numerical Data
-        - **<span style="color:orange">D37</span>**: Handling Missing Categorical Data
-        - **<span style="color:orange">D38</span>**: Imputation for both numerical and categorical data
-            - Random Sample Imputation (used for both numerical and categorical data)
-            - Missing Indicator
-            - Automatic Imputation selection using **GridSearchCV**
-            
-    - 1.3.2 Multivariate Analysis of Missing Values
-        - **<span style="color:orange">D39</span>**: KNN Imputation
-        - **<span style="color:orange">D40</span>**: Iterative Imputation
-
-
-- 1.4 Outlier Detection and Handling
-    - **<span style="color:orange">D41</span>**: Outlier Theory
-    - **<span style="color:orange">D42</span>**: Outlier dettection and removal using z-score
-    - **<span style="color:orange">D43</span>**: Outlier detection and removal using IQR score
-    - **<span style="color:orange">D44</span>**: Outlier detection and removal using Percentile capping
-
+1. Feature Construction
+2. Feature Selection
+3. Feature Extraction
