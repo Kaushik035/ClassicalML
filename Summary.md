@@ -97,12 +97,27 @@ This summary currently covers the **Feature Transformation** part in detail.
 
 ---
 
-## 4. Current Status and Next Step
-
 With Outlier Detection completed, the **Feature Transformation** part is now complete.
 
-Next, we will move to the remaining parts of Feature Engineering:
+## 4. Next Part of Feature Engineering
 
-1. Feature Construction
-2. Feature Selection
-3. Feature Extraction
+### 4.1 Feature Construction and Feature Splitting
+
+- **<span style="color:orange">D45</span>**: Feature Construction and Feature Splitting
+  - Feature Construction: creating new features from existing ones manually (e.g., combining date features into a single datetime feature)
+  - Feature Splitting: breaking down complex features into simpler components (e.g., splitting a datetime feature into year, month, day, etc.)
+
+### 4.2 Progress Status
+
+Feature construction and feature splitting are done.
+
+Now Feature Selection and Feature Extraction are left to be covered in the next part of this journey, which is based on Curse of Dimensionality.
+
+Feature Selection will be covered later after ML models, because it is often model-dependent.
+
+## 5. Curse of Dimensionality and Feature Extraction
+
+- **<span style="color:orange">D46</span>**: Curse of Dimensionality
+- **<span style="color:orange">D47</span>**: Feature Extraction using PCA
+
+
