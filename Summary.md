@@ -120,4 +120,18 @@ Feature Selection will be covered later after ML models, because it is often mod
 - **<span style="color:orange">D46</span>**: Curse of Dimensionality
 - **<span style="color:orange">D47</span>**: Feature Extraction using PCA
 
+## 6. Machine Learning Alogorithms
+
+- **<span style="color:orange">D48</span>**: Simple Linear Regression
+- **<span style="color:orange">D49</span>**: Regression Metrics
+- **<span style="color:orange">D50</span>**: Multiple Linear Regression
+- **<span style="color:orange">D50.2</span>**: Assumptions of Linear Regression
+- **<span style="color:orange">D51</span>**: Gradient Descent
+- **<span style="color:orange">D52</span>**: Types of Gradient Descent
+  - Batch Gradient Descent
+  - Stochastic Gradient Descent
+  - Mini-batch Gradient Descent
+- **<span style="color:orange">D53</span>**: Polynomial Regression
+- **<span style="color:orange">D54</span>**: Bias-Variance Tradeoff
+
 
