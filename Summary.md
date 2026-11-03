@@ -133,5 +133,12 @@ Feature Selection will be covered later after ML models, because it is often mod
   - Mini-batch Gradient Descent
 - **<span style="color:orange">D53</span>**: Polynomial Regression
 - **<span style="color:orange">D54</span>**: Bias-Variance Tradeoff
-
+- **<span style="color:orange">D55</span>**: Regularization Theory and Ridge Regression
+- **<span style="color:orange">D56</span>**: Lasso Regression
+- **<span style="color:orange">D57</span>**: Elastic Net
+- **<span style="color:orange">D58</span>**: Logistic Regression
+- **<span style="color:orange">D59</span>**: Classification Metrics
+- **<span style="color:orange">D59.5</span>**: ROC Curve
+- **<span style="color:orange">D60</span>**: Logistic Regression Contd.
+- **<span style="color:orange">D61</span>**: Naive Bayes Classifier
 
