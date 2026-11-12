@@ -1,6 +1,6 @@
 ## Classical ML Learning Summary
 
-This file gives a complete flow of learning in this Classical ML journey, from data collection to Feature Engineering.
+This file gives a complete flow of learning in this Classical ML journey, from data collection to Feature Engineering, ML algorithms, and Ensemble Learning.
 
 ## 1. Foundation and Data Understanding
 
@@ -140,5 +140,50 @@ Feature Selection will be covered later after ML models, because it is often mod
 - **<span style="color:orange">D59</span>**: Classification Metrics
 - **<span style="color:orange">D59.5</span>**: ROC Curve
 - **<span style="color:orange">D60</span>**: Logistic Regression Contd.
-- **<span style="color:orange">D61</span>**: Naive Bayes Classifier
 
+## 7. Tree-Based Models and Ensemble Learning
+
+### 7.1 Decision Trees
+
+- **<span style="color:orange">D61</span>**: Decision Trees
+  - Geometric intuition, terminology, and CART
+  - Entropy, Information Gain, and Gini Impurity
+  - Handling numerical data (threshold-based splits)
+  - Hyperparameters: overfitting and underfitting, and how to prevent overfitting
+  - Regression Trees and the `splitter` parameter (best vs random)
+  - Visualization using **dtreeviz**
+
+### 7.2 Ensemble Learning
+
+- **<span style="color:orange">D62</span>**: Introduction to Ensemble Learning
+  - Wisdom of the crowd and the core idea
+  - Types: Voting, Stacking, Bagging, Boosting
+  - Why ensembles work and their disadvantages
+- **<span style="color:orange">D63</span>**: Voting Ensemble
+  - Core idea, assumptions, and why voting works
+  - Voting Classifier: Hard Voting, Soft Voting, Weighted Voting
+  - Voting Regressor
+- **<span style="color:orange">D64</span>**: Bagging Ensemble
+  - Why bagging works (reducing variance)
+  - Types: Bootstrap Aggregation (Bagging), Pasting, Random Subspaces, Random Patches
+  - Bagging Classifier (including OOB score and GridSearchCV)
+  - Bagging Regressor
+- **<span style="color:orange">D65</span>**: Random Forest
+  - Intuition and bias-variance tradeoff in Random Forest
+  - Bagging vs Random Forest (column sampling at every split)
+  - Hyperparameters and tuning using GridSearchCV / RandomizedSearchCV
+  - OOB (Out-of-Bag) Score
+
+## 8. Other Algorithms (Folders Without Day Numbers Yet)
+
+- **<span style="color:orange">KNN</span>**: K-Nearest Neighbors
+  - Steps of the algorithm and how to select the value of K
+  - Decision surface, overfitting and underfitting, and limitations
+- **<span style="color:orange">Naive-Bayes-Classifier</span>**: Naive Bayes Classifier
+  - Probability foundations: Conditional Probability, Independent Events, Mutually Exclusive Events
+  - Bayes Theorem and problems based on it
+  - Intuition and mathematical intuition of Naive Bayes
+  - Code from scratch and handling numerical data (Gaussian assumption)
+- **<span style="color:orange">SVM</span>**: Support Vector Machine (in progress)
+  - Geometric intuition and support vectors
+  - Math of SVM: Hard Margin and decision rule
